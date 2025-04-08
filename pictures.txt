@@ -1,0 +1,2 @@
+file1.txt: tom nil rw -- --
+file2.txt: alice students rw rw r-

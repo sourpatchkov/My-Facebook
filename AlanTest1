@@ -1,0 +1,23 @@
+friendadd Alan
+viewby Alan
+friendadd alice
+friendadd bob
+friendadd invalid:name
+friendadd ThisNameIsWayTooLongToBeValidBecauseItExceedsThirtyCharacters
+friendadd alice
+logout
+viewby nonexisting
+logout
+viewby alice
+listadd testers
+logout
+viewby Alan
+listadd testers
+listadd nil
+listadd testers
+friendlist charlie testers
+friendlist alice nonexist
+friendlist alice testers
+friendlist bob testers
+friendlist alice testers
+end

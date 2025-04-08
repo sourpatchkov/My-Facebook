@@ -1,0 +1,3 @@
+file2.txt
+Text from Alice in file2
+Text from Bob in file2

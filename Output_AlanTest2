@@ -1,0 +1,48 @@
+Audit.txt
+Friend Alan added
+Friend Alan views the profile
+Friend megan added
+Friend tommy added
+File pic1.txt with owner Alan and default permissions added
+Error: Invalid:Picture.txt contains invalid characters
+Error: file pic1.txt already exists.
+List testing added
+Friend Alan logged out
+Error: No one is viewing the profile. Cannot post picture.
+Error with chlst: No one is viewing the profile. Cannot change list.
+Friend Alan views the profile
+List for pic1.txt changed to testing by Alan
+Friend megan added to list testing
+Permissions for pic1.txt set to rw rw -- by Alan
+Owner of pic1.txt changed to megan
+Friend Alan logged out
+Error with chmod: No one is viewing the profile. Cannot change permissions.
+Friend tommy views the profile
+Friend tommy denied read access to pic1.txt
+Friend tommy logged out
+Friend megan views the profile
+Permissions for pic1.txt set to rw rw rw by megan
+Friend megan wrote to pic1.txt: tommy should be able to read this
+Friend megan logged out
+Friend tommy views the profile
+Friend tommy reads pic1.txt as:
+pic1.txt
+tommy should be able to read this
+Error: Only the profile owner can change the owner of a picture.
+Friend tommy logged out
+Program terminated.
+
+Console
+Same as audit file
+
+friends.txt
+Alan
+megan
+tommy
+
+lists.txt
+testing: megan
+
+pictures.txt
+pic1.txt: megan testing rw rw rw
+

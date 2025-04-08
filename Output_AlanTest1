@@ -1,0 +1,38 @@
+Audit.txt
+Friend Alan added
+Friend Alan views the profile
+Friend alice added
+Friend bob added
+Error: invalid:name contains invalid characters
+Error: ThisNameIsWayTooLongToBeValidBecauseItExceedsThirtyCharacters is too long.
+Error: Friend alice already exists
+Friend Alan logged out
+Login failed: invalid friend name
+Error: No one is logged in.
+Friend alice views the profile
+Error: only the profile owner may issue listadd command
+Friend alice logged out
+Friend Alan views the profile
+List testers added
+Error: List name cannot be 'nil'.
+Error: list testers already exists
+Error: Friend 'charlie' does not exist.
+Error: List 'nonexist' does not exist.
+Friend alice added to list testers
+Friend bob added to list testers
+Error: Friend 'alice' is already in the list 'testers'.
+Program terminated.
+
+Console
+Same as audit file
+
+Friends.txt
+Alan
+alice
+bob
+
+lists.txt
+testers: alice bob
+
+pictures.txt
+(blank)

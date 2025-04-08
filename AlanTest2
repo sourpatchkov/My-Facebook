@@ -1,0 +1,30 @@
+friendadd Alan
+viewby Alan
+friendadd megan
+friendadd tommy
+postpicture pic1.txt
+postpicture Invalid:Picture.txt
+postpicture pic1.txt
+listadd testing
+logout 
+postpicture pic2.txt
+chlst pic1.txt testing
+viewby Alan 
+chlst pic1.txt testing
+friendlist megan testing
+chmod pic1.txt rw rw --
+chown pic1.txt megan
+logout 
+chmod pic1.txt rw rw rw
+viewby tommy
+readcomments pic1.txt
+logout
+viewby megan 
+chmod pic1.txt rw rw rw
+writecomments pic1.txt tommy should be able to read this
+logout 
+viewby tommy
+readcomments pic1.txt
+chown pic1.txt megan
+logout
+end

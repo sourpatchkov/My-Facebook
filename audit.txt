@@ -1,0 +1,43 @@
+Friend root added
+Friend root views the profile
+Friend alice added
+Friend bob added
+List students added
+Friend alice added to list students
+Friend bob added to list students
+Friend tom added
+Friend root logged out
+Friend alice views the profile
+File file1.txt with owner alice and default permissions added
+Friend alice wrote to file1.txt: Text from Alice in file1
+File file2.txt with owner alice and default permissions added
+Friend alice wrote to file2.txt: Text from Alice in file2
+Permissions for file2.txt set to rw rw r- by alice
+List for file2.txt changed to students by alice
+Friend alice logged out
+Friend tom views the profile
+Friend tom denied read access to file1.txt
+Friend tom reads file2.txt as:
+file2.txt
+Text from Alice in file2
+Friend tom denied write access to file2.txt
+Friend bob views the profile
+Friend bob logged out
+Friend bob views the profile
+Friend bob wrote to file2.txt: Text from Bob in file2
+Friend bob reads file2.txt as:
+file2.txt
+Text from Alice in file2
+Text from Bob in file2
+Friend bob logged out
+Friend root views the profile
+Owner of file1.txt changed to tom
+Friend root logged out
+Friend tom views the profile
+Friend tom wrote to file1.txt: Text from Tom in file1
+Friend tom reads file1.txt as:
+file1.txt
+Text from Alice in file1
+Text from Tom in file1
+Friend tom logged out
+Program terminated.
